@@ -1,0 +1,9 @@
+Junior Developer job description - Requirements and Skills
+==================================================
+- 1+ years of experience in software development or operations engineering.
+- Working knowledge of databases, SQL, and Ruby on Rails.
+- B.S. in Computer Science or related engineering field.
+- Excellent communication skills.
+- Detail-oriented and quality-focused approach.
+- Collaborative team player.
+- Bonus: Experience in SDLC projects, Operations, or Quality Assurance.

@@ -1,0 +1,10 @@
+Database Administrator (DBA) job description - Requirements and Skills
+==================================================
+- Proven working experience as a Database Administrator
+- Hands-on experience with database standards and end user applications
+- Excellent knowledge of data backup, recovery, security, integrity and SQL
+- Familiarity with database design, documentation and coding
+- Previous experience with DBA case tools (frontend/backend) and third party tools
+- Familiarity with programming languages API
+- Problem solving skills and ability to think algorithmically
+- BS degree in a computer discipline or relevant certification

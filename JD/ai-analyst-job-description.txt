@@ -1,0 +1,7 @@
+AI analyst job description - Requirements and Skills
+==================================================
+- Advanced degree in Data Science, Computer Science, Statistics, or a related field
+- Proven experience as a data analyst or data scientist
+- Experience in using statistical computer languages (R, Python, SQL, etc.) to manipulate data and draw insights from large data sets
+- Knowledge of a variety of machine learning techniques (clustering, decision tree learning, artificial neural networks, etc.) and their real-world advantages/drawbacks
+- Strong problem-solving skills with an emphasis on product development

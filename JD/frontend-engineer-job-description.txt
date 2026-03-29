@@ -1,0 +1,8 @@
+Frontend Engineer job description - Requirements and Skills
+==================================================
+- Proficiency in JavaScript frameworks.
+- Solid understanding of HTML5, CSS3/4 for styling and designing web pages.
+- Passion for creating interactive user experiences.
+- Bonus: Comfortable with Git, NodeJS, or Ruby on Rails.
+- Bonus: Good understanding of SEO principles and web accessibility.
+- Ability to work collaboratively with a team.

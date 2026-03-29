@@ -1,0 +1,18 @@
+Job Title: Frontend Developer – Entry Level
+
+Responsibilities:
+- Build responsive UI with HTML, CSS, JavaScript.
+- Assist in React component development.
+- Debug & test frontend features.
+
+Required Skills:
+- HTML, CSS, JavaScript
+- Basics of React/Angular
+- Git/GitHub
+
+Preferred Skills:
+- Tailwind CSS / Bootstrap
+- Knowledge of Figma
+
+Education:
+- Bachelor’s in CS/IT

@@ -1,0 +1,8 @@
+Backend Javascript Developer job description - Requirements and Skills
+==================================================
+- CS degree or equivalent
+- Experience in building and designing highly scalable services and RESTful APIs
+- Good working knowledge of JavaScript or other object-oriented programming languages
+- Deep understanding of event-driven or message-driven architecture
+- Familiarity with some of the following frameworks: node.js, Spring Boot, Rails
+- Experience with SOA architecture and NoSQL databases is a plus

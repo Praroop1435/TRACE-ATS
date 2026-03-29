@@ -1,0 +1,19 @@
+Job Title: Frontend Developer – 2+ Years
+
+Responsibilities:
+- Develop scalable React/Angular apps.
+- Ensure cross-browser performance.
+- Work with designers for pixel-perfect UI.
+
+Required Skills:
+- React, Angular, Vue.js
+- JavaScript/TypeScript
+- Tailwind CSS/SCSS
+
+Preferred Skills:
+- UI testing tools (Jest, Cypress)
+- API integration experience
+
+Education & Experience:
+- B.Tech/M.Tech
+- 2+ years in frontend dev

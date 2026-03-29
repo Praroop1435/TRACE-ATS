@@ -1,0 +1,8 @@
+Security Engineer job description - Requirements and Skills
+==================================================
+- BS/MS in Computer Science, Engineering, or Information Security
+- 3+ years in security roles (Red or Blue team experience)
+- Hands-on experience with application, system, and network security
+- Familiarity with cloud computing, Linux administration, and TCP/IP protocols
+- Strong knowledge of security fundamentals and best practices
+- Excellent communication skills in English

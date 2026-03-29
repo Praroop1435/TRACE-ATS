@@ -1,0 +1,9 @@
+Python Developer job description - Requirements and Skills
+==================================================
+- Work experience as a Python Developer
+- Expertise in at least one popular Python framework (like Django, Flask or Pyramid)
+- Knowledge of object-relational mapping (ORM)
+- Familiarity with front-end technologies (like JavaScript and HTML5)
+- Team spirit
+- Good problem-solving skills
+- BSc in Computer Science, Engineering or relevant field

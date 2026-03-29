@@ -1,0 +1,10 @@
+.Net Developer job description - Requirements and Skills
+==================================================
+- Proven experience as a .NET Developer orApplication Developer
+- Familiarity with the ASP.NET framework, SQL Server and design/architectural patterns (e.g. Model-View-Controller (MVC))
+- Knowledge of at least one of the .NET languages (e.g. C#, Visual Basic .NET) and HTML5/CSS3
+- Familiarity with architecture styles/APIs (REST, RPC)
+- Understanding of Agile methodologies
+- Excellent troubleshooting and communication skills
+- Attention to detail
+- BSc/BA in Computer Science, Engineering or a related field

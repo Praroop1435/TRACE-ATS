@@ -1,0 +1,15 @@
+Computer Science job description - Requirements and Skills
+==================================================
+- Proven work experience as a Computer Scientist or similar role
+- The ability to think through problems and find solutions with various computer technologies
+- Experience working with leaders in an organization to identify their needs
+- Strong programming skills in languages such as Python, Java, C++, or others, depending on the specific field of focus
+- Proficiency in data analysis, machine learning, or artificial intelligence techniques and tools
+- Knowledge of software development methodologies and practices, including agile methodologies and version control systems
+- Familiarity with database management systems and SQL for efficient data storage and retrieval
+- Excellent problem-solving and critical-thinking abilities to tackle complex computational and mathematical challenges
+- Strong communication and interpersonal skills to collaborate effectively with team members and stakeholders
+- Ability to adapt to evolving technologies and learn new programming languages and frameworks quickly
+- Understanding of computer architecture and operating systems principles
+- Knowledge of cybersecurity principles and practices to ensure the security of computer systems and data
+- A bachelor’s or master’s degree in computer science or a related field, or equivalent work experience and certifications.

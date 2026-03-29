@@ -1,0 +1,8 @@
+AI Architect job description - Requirements and Skills
+==================================================
+- Master’s or Ph.D. in Computer Science, Artificial Intelligence, or a related field
+- Extensive experience in designing AI applications and knowledge of machine learning frameworks like TensorFlow or PyTorch
+- Proven ability to lead and manage projects with cross-functional teams
+- Strong communication skills to effectively collaborate with various stakeholders
+- Critical thinking and problem-solving skills are essential
+- Experience with ethical AI practices and ensuring compliance with data protection regulations

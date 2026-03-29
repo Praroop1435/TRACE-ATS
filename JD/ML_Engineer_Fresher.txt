@@ -1,0 +1,19 @@
+Job Title: ML Engineer – Junior Role
+
+Responsibilities:
+- Implement ML models for supervised & unsupervised tasks.
+- Preprocess datasets and feature engineering.
+- Train models using Scikit-learn/TensorFlow/PyTorch.
+- Assist in model evaluation & reporting.
+
+Required Skills:
+- Python, Scikit-learn, Pandas, Numpy
+- ML basics (regression, classification, clustering)
+- SQL fundamentals
+
+Preferred Skills:
+- Exposure to TensorFlow/PyTorch
+- Knowledge of MLOps basics
+
+Education:
+- B.Tech/M.Tech (CSE/IT/AI/DS)

@@ -1,0 +1,13 @@
+Front-end Developer job description - Requirements and Skills
+==================================================
+- Proven work experience as a Front-end developer
+- Hands on experience with markup languages
+- Experience with JavaScript, CSS and jQuery
+- Familiarity with browser testing and debugging
+- In-depth understanding of the entire web development process (design, development and deployment)
+- Understanding of layout aesthetics
+- Knowledge of SEO principles
+- Familiarity with software like Adobe Suite, Photoshop and content management systems
+- An ability to perform well in a fast-paced environment
+- Excellent analytical and multitasking skills
+- BSc degree in Computer Science or relevant field

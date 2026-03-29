@@ -1,0 +1,8 @@
+Senior Backend Engineer job description - Requirements and Skills
+==================================================
+- 4+ years of experience in backend development using Ruby, Node, or Java
+- Strong knowledge of relational databases (PostgreSQL, MySQL) and NoSQL databases (MongoDB, Redis, Elastic)
+- Proficiency in object-oriented design, multi-threading, and asynchronous programming
+- Experience with testing frameworks and unit/integration testing
+- BS/MS in Computer Science, Engineering, or related field
+- Familiarity with frontend frameworks, information security practices, AWS, Kubernetes, and Elasticsearch preferred

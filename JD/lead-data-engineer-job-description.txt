@@ -1,0 +1,11 @@
+Lead Data Engineer job description - Requirements and Skills
+==================================================
+- At least 8 years of work experience, with 2 years in a similar role
+- Experience in data architecture, data quality, metadata management, ETL, analytics, reporting, and database administration
+- Strong computer science background and knowledge of software development methodologies
+- Excellent knowledge of SQL
+- Programming experience in a modern language (ideally Python)
+- Good communication skills
+- Diligent, rigorous, and collaborative
+- Bonus: Experience in Project Management, Business Analysis, Consulting, Operations, Statistical analysis, Quality Assurance
+- Familiarity with Redshift, APIs, Git, Linux, AWS, Google Cloud is a plus

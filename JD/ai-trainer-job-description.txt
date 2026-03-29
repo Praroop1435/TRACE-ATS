@@ -1,0 +1,7 @@
+AI Trainer job description - Requirements and Skills
+==================================================
+- Advanced degree in Computer Science, Machine Learning, AI, or related field
+- Proven experience in AI training, machine learning algorithms, and model optimization
+- Strong proficiency in programming languages like Python, R, or Java
+- Excellent analytical, problem-solving, and communication skills
+- Familiarity with AI ethics and the implications of data privacy and security in training

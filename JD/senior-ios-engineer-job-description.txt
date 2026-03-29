@@ -1,0 +1,9 @@
+Senior iOS Engineer job description - Requirements and Skills
+==================================================
+- Solid understanding of the iOS SDK, UIKit, GCD, and Auto Layout
+- Proficiency in Swift and experience with SwiftUI
+- Strong background in unit testing and memory management
+- Comfortable with Git and version control best practices
+- Deep understanding of the native mobile app ecosystem
+- Passion for creating user-centric applications with elegant and intuitive interfaces
+- Familiarity with functional or reactive programming frameworks like RxSwift or Combine is a plus

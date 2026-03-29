@@ -1,0 +1,7 @@
+Cyber Security Specialist job description - Requirements and Skills
+==================================================
+- Proven work experience as a Cyber Security Specialist or similar role
+- Hands-on experience analyzing high volumes of logs, network data and other attack artifacts
+- Experience with vulnerability scanning solutions
+- Proficiency with antivirus and security software
+- Bachelor’s degree in Computer Science, Information Systems, or equivalent education or work experience

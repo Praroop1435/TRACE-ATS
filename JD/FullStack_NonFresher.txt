@@ -1,0 +1,21 @@
+Job Title: Full Stack Developer – 2+ Years
+
+Responsibilities:
+- Build scalable web apps with React & Node.js/Django.
+- Implement secure REST/GraphQL APIs.
+- Work with SQL/NoSQL databases.
+- Deploy apps using Docker/Kubernetes.
+
+Required Skills:
+- React, Angular/Vue
+- Node.js/Django/Flask
+- SQL & MongoDB
+- AWS/GCP
+
+Preferred Skills:
+- MLOps integration
+- Strong problem-solving
+
+Education & Experience:
+- B.Tech/M.Tech
+- 2+ years in full stack dev

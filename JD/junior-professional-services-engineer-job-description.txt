@@ -1,0 +1,11 @@
+Junior Professional Services Engineer job description - Requirements and Skills
+==================================================
+- Minimum two years of experience in software development (Python or Ruby on Rails preferred)
+- Good knowledge of SQL
+- BSc in Computer Science or similar degree, or other BSc plus coding school
+- Proficiency with Amazon Web Services (Redshift, S3, EC2, Lambda) is a plus
+- Experience with SDLC phases, Kubernetes, CI/CD, React, QA, JIRA, Agile development
+- Excellent communication skills
+- Ability to present technical information to a non-technical audience
+- Diligent, rigorous, and able to deliver projects on schedule
+- Collaborative skills in a multinational team environment

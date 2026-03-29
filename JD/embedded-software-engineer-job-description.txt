@@ -1,0 +1,11 @@
+Embedded Software Engineer job description - Requirements and Skills
+==================================================
+- Proven working experience in software engineering
+- BS degree in Computer Science or Engineering
+- Experience in hands-on development and troubleshooting on embedded targets
+- Solid programming experience in C or C++
+- Proven experience in embedded systems design with preemptive, multitasking real-time operating systems
+- Familiarity with software configuration management tools, defect tracking tools, and peer review
+- Excellent knowledge of OS coding techniques, IP protocols, interfaces and hardware subsystems
+- Adequate knowledge of reading schematics and data sheets for components
+- Strong documentation and writing skills

@@ -1,0 +1,10 @@
+Mobile Developer job description - Requirements and Skills
+==================================================
+- Proven work experience as a Mobile developer
+- Demonstrable portfolio of released applications on the App store or the Android market
+- In-depth knowledge of at least one programming language like Swift and Java
+- Experience with third-party libraries and APIs
+- Familiarity with OOP design principles
+- Excellent analytical skills with a good problem-solving attitude
+- Ability to perform in a team environment
+- BSc degree in Computer Science or relevant field

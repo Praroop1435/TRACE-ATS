@@ -1,0 +1,12 @@
+QA Engineer job description - Requirements and Skills
+==================================================
+- Proven work experience in software development
+- Proven work experience in software quality assurance
+- Strong knowledge of software QA methodologies, tools and processes
+- Experience in writing clear, concise and comprehensive test plans and test cases
+- Hands-on experience with both white box and black box testing
+- Hands-on experience with automated testing tools
+- Solid knowledge of SQL and scripting
+- Experience working in an Agile/Scrum development process
+- Experience with performance and/or security testing is a plus
+- BS/MS degree in Computer Science, Engineering or a related subject

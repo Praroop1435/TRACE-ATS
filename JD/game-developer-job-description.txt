@@ -1,0 +1,9 @@
+Game Developer job description - Requirements and Skills
+==================================================
+- Proven working experience in full lifecycle game development
+- Hands on experience primarily with C++ or other programming languages (Java, C, etc)
+- High level knowledge of APIs and libraries
+- Expert in one or more programming specialties (artificial intelligence, 3D Rendering, 3D animation, physics, multiplayer/networking, or audio)
+- Up-to-date with the latest gaming trends, techniques, best practices and technologies
+- Ability to solve problems creatively and effectively
+- BS degree in Computer Science or Games Technology

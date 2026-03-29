@@ -1,0 +1,9 @@
+Senior .NET Developer job description - Requirements and Skills
+==================================================
+- Work experience as a .NET Developer
+- Proficiency in building web-based applications
+- In-depth knowledge of at least one of the .NET languages (like C# and Visual Basic .NET)
+- Familiarity with agile environments
+- Troubleshooting abilities
+- Good communication skills
+- BSc in Computer Science, Engineering or relevant field

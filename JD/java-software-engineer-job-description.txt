@@ -1,0 +1,9 @@
+Java Software Engineer job description - Requirements and Skills
+==================================================
+- Work experience as a Java Software Engineer, Java Developer or similar role
+- Experience building Java EE applications
+- Familiarity with Object-Oriented Design (OOD)
+- Good knowledge of popular Java frameworks like JSF and Spring MVC
+- Experience with test-driven development
+- Problem-solving skills
+- BSc in Computer Science, Engineering or relevant field

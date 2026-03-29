@@ -1,0 +1,9 @@
+PHP Developer job description - Requirements and Skills
+==================================================
+- Proven software development experience in PHP
+- Understanding of open source projects like Joomla, Drupal, Wikis, osCommerce, etc
+- Demonstrable knowledge of web technologies including HTML, CSS, Javascript, AJAX etc
+- Good knowledge of relational databases, version control tools and of developing web services
+- Experience in common third-party APIs (Google, Facebook, Ebay etc)
+- Passion for best design and coding practices and a desire to develop new bold ideas
+- BS/MS degree in Computer Science, Engineering or a related subject

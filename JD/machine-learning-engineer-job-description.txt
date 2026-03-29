@@ -1,0 +1,11 @@
+Machine Learning Engineer job description - Requirements and Skills
+==================================================
+- Proven experience as a Machine Learning Engineer or similar role
+- Understanding of data structures, data modeling and software architecture
+- Deep knowledge of math, probability, statistics and algorithms
+- Ability to write robust code in Python, Java and R
+- Familiarity with machine learning frameworks (like Keras or PyTorch) and libraries (like scikit-learn)
+- Excellent communication skills
+- Ability to work in a team
+- Outstanding analytical and problem-solving skills
+- BSc in Computer Science, Mathematics or similar field; Master’s degree is a plus

@@ -1,0 +1,9 @@
+BI Consultant job description - Requirements and Skills
+==================================================
+- Experience as a BI Consultant, Data Scientist or similar role
+- Familiarity with our industry is a plus
+- Experience with data mining
+- Good knowledge of machine learning
+- Experience using business intelligence tools (like Tableau and Microsoft BI Power) and data processing frameworks (like Hadoop and Samza)
+- Strong skills in statistics and reporting
+- BSc in Computer Science, Engineering or relevant field

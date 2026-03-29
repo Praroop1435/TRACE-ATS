@@ -1,0 +1,13 @@
+Android Engineer job description - Requirements and Skills
+==================================================
+- Extensive experience with Android development and a strong understanding of the Android ecosystem.
+- Proficiency in Java and the Android SDK.
+- Experience with Android libraries, frameworks, and patterns.
+- Knowledge of software design principles and best practices.
+- Familiarity with RESTful APIs and JSON.
+- Experience with agile development methodologies.
+- Strong problem-solving and critical thinking skills.
+- Excellent communication and collaboration skills.
+- Attention to detail and a commitment to quality.
+- Ability to work independently and as part of a team.
+- Bachelor’s degree in Computer Science or a related field (preferred)

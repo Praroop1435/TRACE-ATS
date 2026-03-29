@@ -1,0 +1,11 @@
+Network Administrator job description - Requirements and Skills
+==================================================
+- Proven experience in a network administrator role
+- Hands on experience in networking, routing and switching
+- Excellent knowledge of best practices around management, control, and monitoring of server infrastructure
+- Experience with firewalls, Internet VPN’s remote implementation, troubleshooting, and problem resolution is desired
+- Ability to set up and configure server hardware
+- Familiarity with backup and recovery software and methodologies
+- Great at organising, prioritising and multitasking
+- Juniper, Cisco, CWNA or BCNE training
+- BSc degree in Computer Science or related field

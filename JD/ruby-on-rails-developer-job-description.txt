@@ -1,0 +1,11 @@
+Ruby on Rails Developer job description - Requirements and Skills
+==================================================
+- Proven work experience as a Ruby on Rails developer
+- Proven work experience in software development
+- Demonstrable knowledge of front-end technologies such as JavaScript, HTML, CSS and JQuery
+- Experience developing highly interactive applications
+- A firm grasp of object oriented analysis and design
+- Passion for writing great, simple, clean, efficient code
+- Good knowledge of relational databases
+- Working knowledge of NoSQL databases
+- BS/MS degree in Computer Science, Engineering or in related field

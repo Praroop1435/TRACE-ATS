@@ -1,0 +1,21 @@
+Job Title: Data Analyst – 2+ Years Experience
+
+Responsibilities:
+- Analyze complex datasets and generate actionable insights.
+- Design dashboards using Tableau/Power BI.
+- Optimize SQL queries and database performance.
+- Work with stakeholders for data-driven decision making.
+
+Required Skills:
+- SQL (advanced), Python/R
+- Tableau, Power BI, Excel (advanced)
+- Statistical analysis & forecasting
+- Strong communication skills
+
+Preferred Skills:
+- Knowledge of BigQuery, Spark
+- Experience with ETL pipelines
+
+Education & Experience:
+- Bachelor’s/Master’s degree in relevant field
+- 2+ years as Data Analyst

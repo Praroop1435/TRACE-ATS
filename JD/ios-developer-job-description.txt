@@ -1,0 +1,11 @@
+iOS Developer job description - Requirements and Skills
+==================================================
+- BS/MS degree in Computer Science, Engineering or a related subject
+- Proven working experience in software development
+- Working experience in iOS development
+- Have published one or more iOS apps in the app store
+- A deep familiarity with Objective-C and Cocoa Touch
+- Experience working with iOS frameworks such as Core Data, Core Animation, Core Graphics and Core Text
+- Experience with third-party libraries and APIs
+- Working knowledge of the general mobile landscape, architectures, trends, and emerging technologies
+- Solid understanding of the full mobile development life cycle

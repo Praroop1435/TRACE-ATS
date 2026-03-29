@@ -1,0 +1,10 @@
+Frontend Team Lead job description - Requirements and Skills
+==================================================
+- Experience in providing technical guidance to a team.
+- Highly proficient with JavaScript frameworks.
+- Solid understanding of HTML5, CSS3/4, and modern web design principles.
+- Passion for coding interactive user experiences.
+- Comfortable with Git.
+- Bonus: Experience in team building and leadership.
+- Bonus: Familiarity with NodeJS, Ruby on Rails, SEO principles, web accessibility.
+- Bonus: Experience with remote working.

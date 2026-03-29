@@ -1,0 +1,12 @@
+Lead Data Scientist job description - Requirements and Skills
+==================================================
+- Proven experience as a Data Scientist or similar role
+- Solid understanding of machine learning
+- Knowledge of data management and visualization techniques
+- A knack for statistical analysis and predictive modeling
+- Good knowledge of R, Python and MATLAB
+- Experience with SQL and NoSQL databases
+- Strong organizational and leadership skills
+- Excellent communication skills
+- A business mindset
+- Degree in Computer Science, Data Science, Mathematics or similar field

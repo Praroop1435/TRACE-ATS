@@ -1,0 +1,12 @@
+Data Scientist job description - Requirements and Skills
+==================================================
+- Proven experience as a Data Scientist orData Analyst
+- Experience in data mining
+- Understanding of machine-learning and operations research
+- Knowledge of R, SQL and Python; familiarity with Scala, Java or C++ is an asset
+- Experience using business intelligence tools (e.g. Tableau) and data frameworks (e.g. Hadoop)
+- Analytical mind and business acumen
+- Strong math skills (e.g. statistics, algebra)
+- Problem-solving aptitude
+- Excellent communication and presentation skills
+- BSc/BA in Computer Science, Engineering or relevant field; graduate degree in Data Science or other quantitative field is preferred

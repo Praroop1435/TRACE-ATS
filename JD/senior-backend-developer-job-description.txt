@@ -1,0 +1,10 @@
+Senior Backend Developer job description - Requirements and Skills
+==================================================
+- Proven experience as a Senior Backend Developer
+- Strong knowledge of backend programming languages like Java, Python, Ruby, or .NET
+- Experience with database technologies such as MySQL, PostgreSQL, and MongoDB
+- Familiarity with web server technologies like Node.js, J2EE, Apache, Nginx, ISS, etc
+- Understanding of code versioning tools, such as Git
+- Knowledge of user authentication and authorization between multiple systems, servers, and environments
+- Ability to integrate multiple data sources and databases into one system
+- Excellent problem-solving skills and ability to work in a team

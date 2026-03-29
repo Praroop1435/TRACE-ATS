@@ -1,0 +1,11 @@
+iOS Engineer job description - Requirements and Skills
+==================================================
+- Solid understanding of the iOS SDK and frameworks like UIKit and GCD.
+- Proficiency in Swift and experience with Auto Layout.
+- Experience with TDD and testing frameworks.
+- Deep understanding of native mobile app ecosystem.
+- Experience with RESTful APIs integration.
+- Good understanding of threads and memory management.
+- Comfortable with Git.
+- Passion for creating user-centric apps.
+- Bonus: Familiarity with functional programming or reactive programming frameworks.

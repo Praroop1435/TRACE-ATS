@@ -1,0 +1,10 @@
+Salesforce Developer job description - Requirements and Skills
+==================================================
+- Degree in IT, Computer Science, or related field
+- 2-5 years of experience in Salesforce development
+- Proficiency in Apex, SOQL, VisualForce, and Lightning components
+- Experience with Salesforce architecture and custom coding
+- Salesforce Developer Certification preferred
+- Familiarity with business process analysis and CRM systems
+- Excellent English and technical writing skills
+- Experience with cloud services and integrations is a plus

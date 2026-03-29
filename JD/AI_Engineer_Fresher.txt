@@ -1,0 +1,18 @@
+Job Title: AI Engineer – Entry Level
+
+Responsibilities:
+- Work on basic AI models for NLP & Computer Vision.
+- Support in fine-tuning open-source models.
+- Assist in AI pipeline testing & evaluation.
+
+Required Skills:
+- Python, TensorFlow/PyTorch
+- Basics of NLP/CV
+- SQL fundamentals
+
+Preferred Skills:
+- HuggingFace, OpenAI APIs exposure
+- Strong math/statistics
+
+Education:
+- Bachelor’s in CSE/AI/ML

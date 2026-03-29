@@ -1,0 +1,10 @@
+Senior Data Scientist job description - Requirements and Skills
+==================================================
+- A minimum of two years of full-time work experience as a data scientist
+- A postgraduate degree in computer science, statistics, or a related subject
+- Solid and demonstrable knowledge of machine learning techniques and algorithms
+- Excellent programming skills in languages such as Java or Python
+- Experience with big data technologies and data analysis software like R or MATLAB
+- Exposure to natural language processing, image processing techniques, and big data stacks like Hadoop or Apache Spark is highly desirable
+- Familiarity with NoSQL databases, enterprise search technologies, and recommendation systems
+- Strong communication skills and the ability to work collaboratively across teams

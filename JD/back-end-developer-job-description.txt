@@ -1,0 +1,10 @@
+Back-end Developer job description - Requirements and Skills
+==================================================
+- Proven work experience as a Back-end developer
+- In-depth understanding of the entire web development process (design, development and deployment)
+- Hands on experience with programming languages likeJava, Ruby, PHP and Python
+- Working knowledge of CMS framework
+- Familiarity with front-end languages (e.g. HTML, JavaScript and CSS)
+- Excellent analytical and time management skills
+- Teamwork skills with a problem-solving attitude
+- BSc degree in Computer Science or relevant field

@@ -1,0 +1,8 @@
+Network Engineer job description - Requirements and Skills
+==================================================
+- Proven hands-onnetwork engineering experience
+- CCNP or higher (CCIE and/or CISSP highly valued)
+- Deep understanding of networking protocols (e.g., IPSEC, HSRP, BGP, OSPF, 802.11, QoS)
+- Solid understanding of the OSI or TCP/IP model
+- Hands-on experience with monitoring, network diagnostic and network analytics tools
+- University degree in Computer Science or a related subject

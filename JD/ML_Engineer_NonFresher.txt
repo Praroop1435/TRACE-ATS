@@ -1,0 +1,21 @@
+Job Title: Machine Learning Engineer – 2+ Years
+
+Responsibilities:
+- Build, optimize, and deploy ML pipelines.
+- Work on TensorFlow/PyTorch for training & fine-tuning.
+- Integrate models with APIs/production systems.
+- Collaborate with data engineers for ETL.
+
+Required Skills:
+- Python, TensorFlow, PyTorch, Scikit-learn
+- SQL + NoSQL (MySQL, MongoDB)
+- Cloud ML (AWS/GCP/Azure)
+- Docker/Kubernetes
+
+Preferred Skills:
+- Knowledge of LangChain, HuggingFace
+- Strong system design fundamentals
+
+Education & Experience:
+- Bachelor’s/Master’s degree in CSE/AI
+- 2+ years in ML projects

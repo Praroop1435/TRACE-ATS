@@ -1,0 +1,20 @@
+Job Title: AI Engineer – 2+ Years
+
+Responsibilities:
+- Design and implement AI models for NLP, CV, and Generative AI.
+- Fine-tune pre-trained LLMs.
+- Build RAG/LLM pipelines with LangChain.
+- Deploy AI solutions on cloud.
+
+Required Skills:
+- Python, TensorFlow, PyTorch
+- HuggingFace, LangChain, FAISS
+- MLOps tools (Docker, Airflow, MLflow)
+
+Preferred Skills:
+- Vector databases, RAG pipelines
+- Prompt engineering
+
+Education & Experience:
+- B.Tech/M.Tech in AI/ML
+- 2+ years in AI projects

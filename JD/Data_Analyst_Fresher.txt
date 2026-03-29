@@ -1,0 +1,19 @@
+Job Title: Junior Data Analyst – Entry Level
+
+Responsibilities:
+- Collect, clean, and analyze structured data.
+- Prepare dashboards using Excel/Power BI/Tableau.
+- Write SQL queries for data extraction.
+- Support senior analysts in generating business insights.
+
+Required Skills:
+- Excel, SQL, Python (Pandas, Numpy)
+- Data visualization basics (Matplotlib/Seaborn/Tableau)
+- Attention to detail, problem-solving mindset
+
+Preferred Skills:
+- Exposure to statistics & hypothesis testing
+- Knowledge of cloud tools (AWS/GCP)
+
+Education:
+- Bachelor’s in IT, CSE, Statistics, or related fields

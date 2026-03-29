@@ -1,0 +1,9 @@
+Rails Developer job description - Requirements and Skills
+==================================================
+- Experience building and deploying commercial web applications
+- Proficiency in Ruby on Rails and at least one object-oriented web framework
+- Strong background in relational database theory and SQL
+- Understanding of multi-threading, database contention, and object-oriented design
+- Experience with user-centered interaction design
+- Relevant B.Sc./B.A. degree
+- Bonus: Interest in graphical design and familiarity with Edward Tufte’s work

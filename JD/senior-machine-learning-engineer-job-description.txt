@@ -1,0 +1,8 @@
+Senior Machine Learning Engineer job description - Requirements and Skills
+==================================================
+- BSc/MSc in Electrical & Computer Engineering, Machine Learning, Computer Science, or related fields, with 3+ years of ML implementation experience or a PhD with 1+ years of hands-on ML project experience
+- Solid knowledge of ML principles applied to recommendation/search systems
+- Proficiency in NLP, including language models and text processing
+- Experience with Python in Linux-based environments, Git, and ML frameworks (PyTorch/TensorFlow)
+- Familiarity with relational databases (Postgres, MySQL)
+- Extra credit for cloud deployment experience (GCP, AWS), containerization (Docker), vector search engines, knowledge graphs, PyTorch ecosystem projects, ML publications, or competition participation

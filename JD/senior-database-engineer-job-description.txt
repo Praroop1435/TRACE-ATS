@@ -1,0 +1,12 @@
+Senior Database Engineer job description - Requirements and Skills
+==================================================
+- BS/MS degree in Computer Science, Engineering, or related field
+- Excellent written and verbal communication skills in English
+- Analytical skills with experience in troubleshooting large-scale distributed systems
+- Independent project delivery and passion for cloud technologies and automation
+- 5+ years of experience with relational databases in production environments
+- Data modeling and structure design expertise
+- Experience with major cloud providers (GCP, AWS preferred)
+- Proficiency in SQL, PostgreSQL internals, and Linux systems
+- Familiarity with programming languages (Python, Go, Java, C++)
+- Experience with configuration management and orchestration tools (Ansible, Terraform)

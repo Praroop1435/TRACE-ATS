@@ -1,0 +1,8 @@
+Senior Frontend Engineer job description - Requirements and Skills
+==================================================
+- Highly proficient with JavaScript and JavaScript frameworks
+- Solid understanding of HTML5, CSS3/4, and web design principles
+- Experience with Git, unit, and integration testing
+- Comfortable with TypeScript (preferred)
+- Understanding of SEO principles, web accessibility, and technical writing (bonus)
+- Experience with CI/CD pipelines (bonus)

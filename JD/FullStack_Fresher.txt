@@ -1,0 +1,18 @@
+Job Title: Full Stack Developer – Entry Level
+
+Responsibilities:
+- Assist in frontend (React/Angular) and backend (Node.js/Python) dev.
+- Build REST APIs and connect to databases.
+- Work on debugging & deployment.
+
+Required Skills:
+- HTML, CSS, JavaScript, React
+- Python/Node.js, SQL
+- Git/GitHub
+
+Preferred Skills:
+- Exposure to Docker, AWS
+- Basic understanding of CI/CD
+
+Education:
+- B.Tech in CSE/IT

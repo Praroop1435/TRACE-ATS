@@ -1,0 +1,12 @@
+John Doe
+johndoe@example.com
+
+Skills:
+Python, Machine Learning, Deep Learning, SQL
+
+Experience:
+AI Engineer at Tech Co (2022-present)
+Built NLP and CV models using PyTorch and HuggingFace.
+
+Education:
+B.Tech in Computer Science

@@ -1,0 +1,10 @@
+Programmer job description - Requirements and Skills
+==================================================
+- Proven experience as a programmeror relevant role
+- Ability to program in languages such as C++,Java (J2EE), XML, Python etc.
+- Experience in developing web applications using at least one popular web framework (JSF, Wicket, GWT, Spring MVC)
+- Excellent knowledge with relational databases, SQL and ORM technologies
+- Detail-oriented and excellent concentration ability
+- An analytical mindset and critical thinking
+- Demonstrable ability to discover and fix errors in code
+- BSc/BA in computer science, software engineering or relevant discipline

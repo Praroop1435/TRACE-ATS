@@ -1,0 +1,12 @@
+Data Architect job description - Requirements and Skills
+==================================================
+- Proven work experience as a Data Architect, Data Scientist,Data Analystor similar role
+- In-depth understanding of database structure principles
+- Experience gathering and analyzing system requirements
+- Knowledge of data mining and segmentation techniques
+- Expertise in SQL and Oracle
+- Proficiency in MS Excel
+- Familiarity with data visualization tools (e.g. Tableau, D3.js and R)
+- Proven analytical skills
+- Problem-solving attitude
+- BSc in Computer Science or relevant field

@@ -1,0 +1,14 @@
+Lead QA Engineer job description - Requirements and Skills
+==================================================
+- BS/MS degree in Computer Science, Engineering, or equivalent experience.
+- 5+ years of experience as a Software Development Engineer in Test in a production environment.
+- Ability to multi-task, proactive in project planning and requirements gathering.
+- Excellent English communication skills, especially written.
+- Proficiency in mobile or web application testing.
+- Experience in programming languages such as Java, Groovy, Ruby, Python, or JavaScript.
+- Extensive experience with Appium or Selenium WebDriver.
+- Familiarity with testing frameworks like TestNG, JUnit, or Cucumber.
+- Comfortable with Git, and CI processes using tools like Jenkins, JIRA.
+- Knowledge of SQL/NoSQL databases.
+- Attention to detail and ability to diagnose complex issues in application testing.
+- Bonus for leadership experience, native mobile testing frameworks, and micro-services architecture knowledge.

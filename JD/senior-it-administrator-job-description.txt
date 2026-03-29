@@ -1,0 +1,10 @@
+Senior IT Administrator job description - Requirements and Skills
+==================================================
+- Degree in Information Technology, Computer Science, or related discipline
+- 2-5 years of experience in IT support/administration
+- Scripting experience (Python, bash) and understanding of APIs
+- Proficient with MacOS and Windows
+- Excellent English communication skills
+- Experience with cloud or in-house services/systems administration
+- Desired: Jira administration, CRM systems, Mobile Device Management (MDM), basic network systems knowledge
+- Excellent communication skills, positive attitude, and ability to work effectively in a team

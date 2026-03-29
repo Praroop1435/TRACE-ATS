@@ -1,0 +1,18 @@
+Job Title: Blockchain Developer – Entry Level
+
+Responsibilities:
+- Learn and assist in smart contract development.
+- Work with Ethereum/Solana testnets.
+- Debug blockchain applications.
+
+Required Skills:
+- Basics of Solidity/Rust
+- Python/JavaScript
+- Git/GitHub
+
+Preferred Skills:
+- Web3.js, Ethers.js
+- Understanding of DeFi/NFTs
+
+Education:
+- B.Tech in CS/IT

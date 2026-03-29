@@ -1,0 +1,8 @@
+DevOps Engineer job description - Requirements and Skills
+==================================================
+- Work experience as a DevOps Engineer or similar software engineering role
+- Good knowledge of Ruby or Python
+- Working knowledge of databases and SQL
+- Problem-solving attitude
+- Team spirit
+- BSc in Computer Science, Engineering or relevant field

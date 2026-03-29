@@ -1,0 +1,9 @@
+Senior Java Developer job description - Requirements and Skills
+==================================================
+- Work experience as a Senior Java Developer or similar role
+- Experience designing, building and testing Java EE applications
+- In-depth knowledge of popular Java frameworks like JSF and Spring MVC
+- Experience with Object-Oriented Design (OOD)
+- Good delegation and time management skills
+- Problem-solving abilities
+- BSc in Computer Science, Engineering or relevant field

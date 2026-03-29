@@ -1,0 +1,20 @@
+Job Title: Blockchain Developer – 2+ Years
+
+Responsibilities:
+- Develop and deploy smart contracts.
+- Design dApps using Solidity/Rust.
+- Work with DeFi, NFTs, Web3 integration.
+- Deploy apps on Ethereum/Solana.
+
+Required Skills:
+- Solidity/Rust, Smart Contracts
+- Web3.js/Ethers.js
+- Node.js, React
+
+Preferred Skills:
+- Knowledge of zk-rollups, Layer-2 solutions
+- Security auditing
+
+Education & Experience:
+- B.Tech/M.Tech
+- 2+ years in Blockchain projects

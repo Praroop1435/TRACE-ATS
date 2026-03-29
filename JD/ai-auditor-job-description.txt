@@ -1,0 +1,7 @@
+AI Auditor job description - Requirements and Skills
+==================================================
+- Bachelor’s or Master’s degree in Computer Science, AI, Cybersecurity, or a related field
+- Proven experience in auditing, with a strong understanding of AI systems
+- Knowledge of data privacy laws, ethical guidelines, and industry standards
+- Technical proficiency in AI technologies, including machine learning and NLP
+- Excellent analytical, problem-solving, and communication skills

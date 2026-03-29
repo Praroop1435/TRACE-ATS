@@ -1,0 +1,12 @@
+QA Tester job description - Requirements and Skills
+==================================================
+- Proven experience as a Quality Assurance Tester or similar role
+- Experience in project management and QA methodology
+- Familiarity with Agile frameworks and regression testing is a plus
+- Ability to document and troubleshoot errors
+- Working knowledge of test management software (e.g. qTest, Zephyr) and SQL
+- Excellent communication skills
+- Attention to detail
+- Analytical mind and problem-solving aptitude
+- Strong organizational skills
+- BSc/BA in Computer Science, Engineering or a related field

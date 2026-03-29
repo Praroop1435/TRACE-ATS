@@ -1,0 +1,9 @@
+QA Automation Engineer job description - Requirements and Skills
+==================================================
+- BS/MS degree in Computer Science, Engineering, or related field.
+- 2+ years of experience as a Software Development Engineer in Test.
+- Proficiency in at least one programming language (Java, Groovy, Ruby, Python).
+- Experience with web application testing and Continuous Integration processes.
+- Familiarity with version control, defect tracking, and test management tools (GIT, Jenkins, JIRA).
+- Knowledge of SQL/NoSQL databases.
+- Bonus: Experience with native mobile application testing, Kubernetes, and microservices architecture.

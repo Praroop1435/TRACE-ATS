@@ -1,0 +1,11 @@
+Scrum Master job description - Requirements and Skills
+==================================================
+- Experience in a scrum master role
+- Familiarity with software development
+- Excellent knowledge of Scrum techniques and artifacts (such as definition of done, user stories, automated testing, backlog refinement)
+- Good knowledge of other Agile frameworks (Crystal, XP etc.)
+- Excellent communication and servant leadership skills
+- Problem-solving and conflict-resolution ability
+- Outstanding organizational skills
+- Degree in Computer Science, Business or similar field
+- Scrum master certification is a plus

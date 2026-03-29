@@ -1,0 +1,9 @@
+Junior Operations Engineer job description - Requirements and Skills
+==================================================
+- Minimum 1 year of experience as a software developer or operations engineer, or significant programming exposure
+- Working knowledge of databases, SQL, Ruby on Rails, and Python (or willingness to learn)
+- B.S. in Computer Science or related engineering field with software experience
+- Excellent communication skills
+- Diligent, rigorous, and quality-focused
+- Exceptional collaboration skills
+- Bonus: Experience in SDLC projects, Operations, Quality Assurance

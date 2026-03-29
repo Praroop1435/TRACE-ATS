@@ -1,0 +1,11 @@
+Android Developer job description - Requirements and Skills
+==================================================
+- BS/MS degree in Computer Science, Engineering or a related subject
+- Proven software development experience and Android skills development
+- Proven working experience in Android app development and
+- Have published at least one original Android app
+- Experience with Android SDK
+- Experience working with remote data via REST and JSON
+- Experience with third-party libraries and APIs
+- Working knowledge of the general mobile landscape, architectures, trends, and emerging technologies
+- Solid understanding of the full mobile development life cycle.

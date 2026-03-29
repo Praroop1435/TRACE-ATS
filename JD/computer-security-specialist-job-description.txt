@@ -1,0 +1,11 @@
+Computer Security Specialist job description - Requirements and Skills
+==================================================
+- Proven experience as a Computer Security Specialist
+- Programming skills are preferred (e.g. knowledge of C++, PHP languages)
+- Familiarity with security frameworks (e.g. NIST Cybersecurity framework) and risk management methodologies
+- Knowledge of patch management, firewalls and intrusion detection/prevention systems (e.g. TippingPoint)
+- Familiarity with public key infrastructure (PKI) and cryptographic protocols (e.g. SSL/ TLS)
+- An analytical mind with excellent problem-solving ability
+- Outstanding communication and organization skills
+- Decision-making skills
+- BSc/BA in Computer Science, Information Technology or a related field; professional certification (e.g. CompTIA Security+, CISSP) is a plus
