@@ -1,14 +1,15 @@
 """
-trace_algorithm.py — TRACE-ATS scoring engine v2.0
+trace_algorithm.py — TRACE-ATS scoring engine v2.1
 
-Five signals (improved):
+Six signals:
   L  =  Lexical   (TF-IDF cosine with bigrams + sublinear TF)
   S  =  Semantic  (sentence-transformer with chunked encoding)
   C  =  Checklist (skill-aware JD keyword coverage using a tech lexicon)
   E  =  Effort    (optimal-range word count + section coverage)
   A  =  Anomaly   (keyword-stuffing penalty, stopword-aware)
+  X  =  Experience Mismatch (penalty when resume experience < JD requirement)
 
-TRACE score = 0.25*L + 0.25*S + 0.30*C + 0.15*E − 0.05*A
+TRACE score = 0.15*L + 0.25*S + 0.30*C + 0.15*E − 0.05*A − 0.10*X
 
 v2.0 improvements over v1:
   • L: Added bigram (1,2)-grams and sublinear TF so multi-word phrases like
@@ -66,7 +67,7 @@ TECH_LEXICON = {
     "airflow", "dagster", "prefect", "dbt", "kafka", "flink",
     "snowflake", "bigquery", "redshift", "databricks",
     # Web / Backend
-    "react", "vue", "angular", "nextjs", "svelte", "html", "css",
+    "react", "vue", "angular", "nextjs", "svelte",
     "tailwind", "bootstrap", "node", "express", "fastapi", "flask",
     "django", "spring", "rails", "graphql", "rest", "grpc",
     # DevOps / Cloud
@@ -75,7 +76,7 @@ TECH_LEXICON = {
     "prometheus", "grafana", "datadog", "elk",
     # Databases
     "mysql", "postgresql", "postgres", "mongodb", "redis", "cassandra",
-    "dynamodb", "neo4j", "elasticsearch", "sqlite",
+    "dynamodb", "neo4j", "sqlite",
     # Mobile
     "android", "ios", "flutter", "react native",
     # Blockchain
@@ -83,7 +84,7 @@ TECH_LEXICON = {
     # Concepts (important for matching)
     "nlp", "cv", "cnn", "rnn", "lstm", "gan", "bert", "gpt",
     "llm", "rag", "etl", "ci/cd", "api", "microservices",
-    "agile", "scrum", "devops", "mlops", "git",
+    "devops", "mlops", "git",
 }
 
 PHRASE_LEXICON = {
@@ -91,8 +92,7 @@ PHRASE_LEXICON = {
     "computer vision", "data science", "data engineering", "data analysis",
     "data visualization", "feature engineering", "model deployment",
     "time series", "recommendation systems", "reinforcement learning",
-    "transfer learning", "prompt engineering", "full stack",
-    "front end", "back end", "web development", "mobile development",
+    "transfer learning",
     "cloud computing", "distributed systems", "object detection",
     "image classification", "sentiment analysis", "text classification",
     "speech recognition", "neural network", "decision tree",
@@ -107,7 +107,7 @@ PHRASE_LEXICON = {
 SOFT_SKILLS = {
     "communication", "leadership", "teamwork", "collaboration", "analytical",
     "problem solving", "critical thinking", "management", "organization",
-    "presentation", "mentoring", "adaptability", "creativity", "initiative",
+    "presentation", "mentoring", "adaptability", "initiative",
 }
 
 # Words that appear in JDs but are NOT real skills
@@ -124,6 +124,20 @@ JD_NOISE = {
     "bachelor", "master", "bsc", "msc", "btech", "mtech", "phd",
     "relevant", "related", "minimum", "equivalent", "candidate",
     "apply", "company", "organization", "industry",
+    "environment", "dynamic", "drive", "driven", "self", "starter",
+    "passionate", "motivated", "detail", "oriented", "cross", "functional",
+    "daily", "basis", "best", "practices", "highly", "written", "verbal",
+    "computer", "science", "engineering", "math", "physics", "quantitative",
+    "looking", "seeking", "join", "talented", "engineers", "developers",
+    "scientists", "innovative", "cutting", "edge", "technologies",
+    "technology", "tools", "stack", "agile", "scrum", "css", "html",
+    "full", "front", "end", "back", "web", "development", "prompt",
+    "creativity", "opportunity", "benefits", "salary", "bonus", "equity",
+    "remote", "hybrid", "office", "location", "based", "demonstrated",
+    "demonstrable", "exceptional", "outstanding", "solid", "track", "record",
+    "collaborative", "inclusive", "mission", "vision", "values", "culture",
+    "diversity", "expert", "expertise", "good", "great", "fluent", "hands",
+    "on", "elasticsearch", "solving", "problem", "paced", "fast","rest"
 }
 
 # ── Text Cleaning ─────────────────────────────────────────────────
@@ -143,6 +157,8 @@ def L_score(resume: str, jd: str) -> float:
     """
     Lexical similarity via TF-IDF cosine.
     v2: Uses (1,2)-grams and sublinear TF for better phrase matching.
+    v2.1: Lowered normalization ceiling — short resumes (< 400 words)
+    naturally produce lower raw cosines, so 0.18 is a fairer threshold.
     """
     vec = TfidfVectorizer(
         ngram_range=(1, 2),       # capture "machine learning" etc.
@@ -152,9 +168,9 @@ def L_score(resume: str, jd: str) -> float:
     )
     tfidf = vec.fit_transform([resume, jd])
     score = float(cosine_similarity(tfidf[0], tfidf[1])[0][0])
-    # Normalize: raw TF-IDF cosine between resume/JD is typically 0.05–0.40
-    # Scale so 0.30+ maps to ~1.0 for a strong match
-    return min(1.0, score / 0.30)
+    # Normalize: raw TF-IDF cosine between resume/JD is typically 0.05–0.30
+    # For short texts the ceiling is lower; 0.18+ maps to ~1.0
+    return min(1.0, score / 0.18)
 
 
 # ── Signal: S (Semantic) ─────────────────────────────────────────
@@ -234,8 +250,9 @@ def extract_skills_from_jd(jd_text: str, top_k: int = 20) -> list[str]:
 def C_score(resume: str, jd: str) -> float:
     """
     Checklist coverage: fraction of JD-extracted skills found in resume.
-    v2: Uses lexicon-based extraction. Applies weighted matching
-    (tech skills count more than soft skills).
+    v2.1: Uses lexicon-based extraction with DYNAMIC weighting.
+    If the JD has no soft skills, 100% weight goes to tech coverage
+    so a perfect tech match yields 1.0 (not 0.80).
     """
     resume_lower = resume.lower()
     skills = extract_skills_from_jd(jd)
@@ -259,12 +276,19 @@ def C_score(resume: str, jd: str) -> float:
             if skill in resume_lower:
                 tech_matched += 1
 
-    # Tech skills weighted 3x more than soft skills
     tech_coverage = (tech_matched / max(1, tech_total))
     soft_coverage = (soft_matched / max(1, soft_total))
 
-    # Blend: 80% tech, 20% soft
-    return 0.80 * tech_coverage + 0.20 * soft_coverage
+    # Dynamic weighting: if one category is absent, give full weight to the other
+    if tech_total == 0 and soft_total == 0:
+        return 0.5
+    elif soft_total == 0:
+        return tech_coverage          # 100% tech-driven
+    elif tech_total == 0:
+        return soft_coverage           # 100% soft-driven
+    else:
+        # Blend: 80% tech, 20% soft when both present
+        return 0.80 * tech_coverage + 0.20 * soft_coverage
 
 
 # ── Signal: E (Effort / Quality) ─────────────────────────────────
@@ -371,25 +395,143 @@ def A_score(resume: str) -> float:
     return min(1.0, score)
 
 
+# ── Signal: X (Experience Mismatch) ──────────────────────────────
+
+# Patterns to extract years-of-experience from JD
+_JD_EXP_PATTERNS = [
+    # "5+ years", "5-7 years", "minimum 3 years", "at least 2 years"
+    r'(\d+)\s*\+?\s*(?:to|-|–)?\s*(?:\d+)?\s*years?\s+(?:of\s+)?(?:experience|exp\.?|professional)',
+    r'(?:minimum|at\s+least|min\.?)\s+(\d+)\s*\+?\s*years?',
+    r'(\d+)\s*\+?\s*years?\s+(?:of\s+)?(?:relevant|industry|hands[- ]?on|total|overall)',
+    r'(\d+)\s*\+?\s*years?\s+(?:of\s+)?(?:experience|exp\.?)',
+    r'(\d+)\s*-\s*\d+\s*years?',
+]
+
+# Patterns to extract years-of-experience from resume
+_RESUME_EXP_PATTERNS = [
+    # "5+ years of experience", "over 3 years"
+    r'(\d+)\s*\+?\s*years?\s+(?:of\s+)?(?:experience|professional|industry)',
+    r'(?:over|more\s+than)\s+(\d+)\s*years?',
+    r'(\d+)\s*\+?\s*years?\s+(?:of\s+)?(?:relevant|hands[- ]?on|total)',
+]
+
+
+def _extract_jd_experience(jd: str) -> int | None:
+    """Extract the required years of experience from a JD. Returns None if not found."""
+    jd_lower = jd.lower()
+    candidates: list[int] = []
+    for pattern in _JD_EXP_PATTERNS:
+        for m in re.finditer(pattern, jd_lower):
+            val = int(m.group(1))
+            if 0 < val <= 30:  # sanity check
+                candidates.append(val)
+    return max(candidates) if candidates else None
+
+
+def _extract_resume_experience(resume: str) -> int | None:
+    """Extract claimed years of experience from a resume. Returns None if not found."""
+    resume_lower = resume.lower()
+    candidates: list[int] = []
+    for pattern in _RESUME_EXP_PATTERNS:
+        for m in re.finditer(pattern, resume_lower):
+            val = int(m.group(1))
+            if 0 < val <= 40:
+                candidates.append(val)
+    # Also try to infer from date ranges (e.g., "2019 – 2024")
+    date_ranges = re.findall(r'(20\d{2})\s*(?:–|-|to)\s*(20\d{2}|present|current)', resume_lower)
+    import datetime
+    current_year = datetime.datetime.now().year
+    total_span = 0
+    for start_str, end_str in date_ranges:
+        start = int(start_str)
+        end = current_year if end_str in ("present", "current") else int(end_str)
+        span = max(0, end - start)
+        total_span = max(total_span, span)  # take the longest implied span
+    if total_span > 0:
+        candidates.append(total_span)
+    return max(candidates) if candidates else None
+
+
+def X_score(resume: str, jd: str) -> tuple[float, dict]:
+    """
+    Experience mismatch penalty.
+    Returns (penalty_value, details_dict).
+      penalty_value: 0.0 = no penalty, 1.0 = maximum penalty
+      details_dict: {jd_years, resume_years, gap, status}
+
+    Penalty curve:
+      gap <= 0 (meets or exceeds)  → 0.0
+      gap == 1                      → 0.2  (minor shortfall)
+      gap == 2                      → 0.5
+      gap == 3                      → 0.75
+      gap >= 4                      → 1.0  (severely underqualified)
+
+    If the JD doesn't specify experience, no penalty is applied.
+    If the resume doesn't state experience, a moderate penalty of 0.4 is applied
+    (benefit of the doubt — ATS can't verify so light penalty).
+    """
+    jd_years = _extract_jd_experience(jd)
+    resume_years = _extract_resume_experience(resume)
+
+    details = {
+        "jd_years_required": jd_years,
+        "resume_years_found": resume_years,
+        "gap": None,
+        "status": "not_applicable",
+    }
+
+    # If JD doesn't specify experience, no penalty
+    if jd_years is None:
+        details["status"] = "jd_no_requirement"
+        return 0.0, details
+
+    # If resume doesn't mention experience at all
+    if resume_years is None:
+        details["status"] = "resume_no_mention"
+        details["gap"] = jd_years
+        return 0.4, details  # moderate penalty — can't verify
+
+    gap = jd_years - resume_years
+    details["gap"] = gap
+
+    if gap <= 0:
+        details["status"] = "meets_requirement"
+        return 0.0, details
+    elif gap == 1:
+        details["status"] = "minor_shortfall"
+        return 0.2, details
+    elif gap == 2:
+        details["status"] = "moderate_shortfall"
+        return 0.5, details
+    elif gap == 3:
+        details["status"] = "significant_shortfall"
+        return 0.75, details
+    else:
+        details["status"] = "severely_underqualified"
+        return 1.0, details
+
+
 # ── Composite Scoring ─────────────────────────────────────────────
 
-# v2 WEIGHTS — rebalanced for more accurate ATS scoring:
-#   C (30%): Skill coverage is the most actionable signal
+# v2.1 WEIGHTS — rebalanced for more accurate ATS scoring:
+#   C (30%): Skill coverage is the most actionable & reliable signal
 #   S (25%): Semantic domain relevance catches what keywords miss
-#   L (25%): Lexical TF-IDF overlap validates specific term presence
+#   L (15%): Lexical TF-IDF is supportive but noisy for short docs
 #   E (15%): Quality/completeness rewards well-structured resumes
 #   A (−5%): Gentle stuffing penalty (only triggers on real abuse)
+#   X (−10%): Experience mismatch penalty
 
-W_L = 0.25
+W_L = 0.15
 W_S = 0.25
 W_C = 0.30
 W_E = 0.15
 W_A = -0.05
+W_X = -0.10
 
 
-def _compute_trace(l: float, s: float, c: float, e: float, a: float) -> float:
+def _compute_trace(l: float, s: float, c: float, e: float, a: float, x: float) -> float:
     """Compute the TRACE score from individual signals."""
-    raw = W_L * l + W_S * s + W_C * c + W_E * e + W_A * a
+    raw = W_L * l + W_S * s + W_C * c + W_E * e + W_A * a + W_X * x
     # Clamp to [0, 1]
     return max(0.0, min(1.0, raw))
 
@@ -415,7 +557,8 @@ def trace_score(resume: str, jd: str) -> float:
     C = C_score(resume, jd)
     E = E_score(resume)
     A = A_score(resume)
-    return _compute_trace(L, S, C, E, A)
+    X, _ = X_score(resume, jd)
+    return _compute_trace(L, S, C, E, A, X)
 
 
 # ── Full Comparison (all 4 philosophies) ──────────────────────────
@@ -434,8 +577,9 @@ def compare_models(resume_raw: str, jd_raw: str) -> dict:
     c = C_score(resume, jd)
     e = E_score(resume)
     a = A_score(resume)
+    x, x_details = X_score(resume, jd)
 
-    trace = _compute_trace(l, s, c, e, a)
+    trace = _compute_trace(l, s, c, e, a, x)
 
     # Also extract the raw skills for display
     skills = extract_skills_from_jd(jd_raw)
@@ -458,7 +602,9 @@ def compare_models(resume_raw: str, jd_raw: str) -> dict:
             "C": {"name": "Checklist (Skill Coverage)", "value": round(float(c), 4), "weight": W_C},
             "E": {"name": "Effort (Quality + Sections)", "value": round(float(e), 4), "weight": W_E},
             "A": {"name": "Anomaly (Stuffing Penalty)", "value": round(float(a), 4), "weight": W_A},
+            "X": {"name": "Experience (Mismatch Penalty)", "value": round(float(x), 4), "weight": W_X},
         },
+        "experience": x_details,
         "extracted_skills": skills,
         "matched_skills": matched_skills,
         "missing_skills": missing_skills,

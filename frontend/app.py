@@ -279,7 +279,7 @@ if "results" in st.session_state:
 
     signal_colors = {
         "L": "#06b6d4", "S": "#8b5cf6", "C": "#10b981",
-        "E": "#f59e0b", "A": "#f43f5e",
+        "E": "#f59e0b", "A": "#f43f5e", "X": "#ec4899",
     }
 
     for i, key in enumerate(signal_keys):
@@ -340,6 +340,40 @@ if "results" in st.session_state:
             for s in missing
         )
         st.markdown(missing_html, unsafe_allow_html=True)
+
+    # ── Experience Analysis ──
+    exp_data = data.get("experience", {})
+    if exp_data and exp_data.get("status") != "not_applicable":
+        st.markdown("")
+        st.subheader("📅 Experience Analysis")
+
+        status = exp_data.get("status", "")
+        jd_yrs = exp_data.get("jd_years_required")
+        res_yrs = exp_data.get("resume_years_found")
+        gap = exp_data.get("gap")
+
+        # Status badge
+        status_map = {
+            "jd_no_requirement": ("ℹ️ JD does not specify experience", "#6b7280"),
+            "resume_no_mention": ("⚠️ Resume does not mention experience", "#f59e0b"),
+            "meets_requirement": ("✅ Meets or exceeds requirement", "#10b981"),
+            "minor_shortfall": ("⚠️ Minor shortfall (1 year gap)", "#f59e0b"),
+            "moderate_shortfall": ("⚠️ Moderate shortfall (2 year gap)", "#f97316"),
+            "significant_shortfall": ("❌ Significant shortfall (3 year gap)", "#f43f5e"),
+            "severely_underqualified": ("❌ Severely underqualified (4+ year gap)", "#dc2626"),
+        }
+        label, color = status_map.get(status, (status, "#6b7280"))
+
+        exp_cols = st.columns(4)
+        exp_cols[0].metric("JD Requires", f"{jd_yrs} yrs" if jd_yrs is not None else "—")
+        exp_cols[1].metric("Resume Shows", f"{res_yrs} yrs" if res_yrs is not None else "—")
+        exp_cols[2].metric("Gap", f"{gap} yrs" if gap is not None else "—")
+        exp_cols[3].markdown(
+            f'<div style="margin-top: 0.8rem; padding: 8px 16px; border-radius: 8px; '
+            f'background: rgba(18,18,30,0.65); border: 1px solid {color}40; color: {color}; '
+            f'font-weight: 500; text-align: center;">{label}</div>',
+            unsafe_allow_html=True,
+        )
 
     # ── Meta Stats ──
     st.markdown("")
